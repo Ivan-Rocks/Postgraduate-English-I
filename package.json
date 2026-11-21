@@ -1,0 +1,40 @@
+{
+  "name": "@local/postgraduate-english-i",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "考研英语一微阅读练习数据与工具（与 K-12-English 业务隔离）。",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node scripts/validate-units.mjs"
+  },
+  "exports": {
+    ".": "./integrations/dsh/index.js",
+    "./client": "./integrations/dsh/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./integrations/dsh/cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  },
+  "files": [
+    "integrations/dsh/index.js",
+    "integrations/dsh/client.js",
+    "integrations/dsh/cordis.patch.yml",
+    "scripts/validate-units.mjs",
+    "skills/micro-reading/SKILL.md",
+    "data/README.md",
+    "data/units/*.json",
+    "locale/*.json",
+    "icon.svg"
+  ]
+}

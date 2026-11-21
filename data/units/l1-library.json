@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "id": "l1-library",
+  "level": "L1",
+  "title": "Libraries reinvent themselves",
+  "topic": "社会·图书馆",
+  "wordCount": 58,
+  "timeBudgetMin": 15,
+  "timePlan": { "read": 3, "quiz": 5, "translation": 3, "output": 3, "vocab": 1 },
+  "passage": "For years, the library's role was taken for granted. Then the Internet arrived, and many predicted the printed book would become obsolete. Yet the opposite happened: libraries reinvented themselves as community hubs — offering courses, co-working space, and free access to digital archives. The institution did not vanish; it adapted, and in adapting it found a new reason to exist.",
+  "source": {
+    "origin": "self-written",
+    "license": "internal",
+    "status": "draft"
+  },
+  "vocab": [
+    {
+      "word": "take for granted",
+      "pos": "phrase",
+      "gloss": "把…视为理所当然",
+      "collocation": "take sth for granted",
+      "example": "We take clean water for granted until it runs out."
+    },
+    {
+      "word": "obsolete",
+      "pos": "adj.",
+      "gloss": "过时的，被淘汰的",
+      "collocation": "become obsolete",
+      "example": "Typewriters became obsolete once computers spread."
+    },
+    {
+      "word": "reinvent",
+      "pos": "v.",
+      "gloss": "彻底改造，重新塑造",
+      "collocation": "reinvent oneself as",
+      "example": "She reinvented herself as a novelist."
+    },
+    {
+      "word": "vanish",
+      "pos": "v.",
+      "gloss": "消失",
+      "collocation": "vanish without a trace",
+      "example": "The old shops vanished from the high street."
+    },
+    {
+      "word": "adapt",
+      "pos": "v.",
+      "gloss": "适应，调整",
+      "collocation": "adapt to change",
+      "example": "Small firms adapt to change faster than big ones."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "main-idea",
+      "stem": "这段主要在说什么？",
+      "options": [
+        { "key": "A", "text": "图书馆终将被互联网淘汰" },
+        { "key": "B", "text": "图书馆转型重生，找到了新角色" },
+        { "key": "C", "text": "互联网让纸质书变得过时" },
+        { "key": "D", "text": "数字档案馆比实体图书馆更受欢迎" }
+      ],
+      "answer": "B",
+      "explanation": "末句 found a new reason to exist 与段首形成对照，说明图书馆不是消失而是转型。"
+    },
+    {
+      "id": "q2",
+      "type": "vocabulary-in-context",
+      "target": "obsolete",
+      "stem": "文中 obsolete 在这里最接近哪个意思？",
+      "options": [
+        { "key": "A", "text": "outdated（过时的）" },
+        { "key": "B", "text": "popular（受欢迎的）" },
+        { "key": "C", "text": "expensive（昂贵的）" },
+        { "key": "D", "text": "forbidden（被禁止的）" }
+      ],
+      "answer": "A",
+      "explanation": "obsolete 指被新事物取代而淘汰，与互联网预言纸质书'被淘汰'的语境吻合。"
+    },
+    {
+      "id": "q3",
+      "type": "reference",
+      "target": "the opposite",
+      "stem": "'the opposite' 指的是什么？",
+      "options": [
+        { "key": "A", "text": "互联网带来的预言" },
+        { "key": "B", "text": "图书馆最终消失" },
+        { "key": "C", "text": "纸质书被淘汰" },
+        { "key": "D", "text": "图书馆原本的作用" }
+      ],
+      "answer": "A",
+      "explanation": "the opposite 与前半句 many predicted... 相对，指与预言相反的情况——图书馆没有被淘汰。"
+    },
+    {
+      "id": "q4",
+      "type": "logic-link",
+      "stem": "第二句与第三句之间的逻辑关系是？",
+      "options": [
+        { "key": "A", "text": "转折" },
+        { "key": "B", "text": "因果" },
+        { "key": "C", "text": "递进" },
+        { "key": "D", "text": "举例" }
+      ],
+      "answer": "A",
+      "explanation": "Yet 是转折信号词，表示实际情况与上一句的预言相反。"
+    }
+  ],
+  "translation": {
+    "instructions": "把下面的句子译成中文，先自己译，再展开参考。",
+    "items": [
+      {
+        "id": "t1",
+        "source": "The institution did not vanish; it adapted, and in adapting it found a new reason to exist.",
+        "reference": "这个机构并没有消失；它适应了变化，并在适应过程中找到了新的存在理由。",
+        "points": ["vanish 译出「消失」", "分号前后是转折关系", "in adapting 译出「在适应过程中」"]
+      },
+      {
+        "id": "t2",
+        "source": "Yet the opposite happened: libraries reinvented themselves as community hubs.",
+        "reference": "然而，情况恰恰相反：图书馆把自身重新打造为社区中心。",
+        "points": ["the opposite 指与预言相反的情况", "reinvented themselves as 译出「把自身重新打造为」"]
+      }
+    ]
+  },
+  "output": {
+    "instructions": "用本轮没把握的词造句，或描述一个相似场景；先自己写，再看参考。",
+    "tasks": [
+      {
+        "id": "o-obsolete",
+        "kind": "sentence",
+        "targets": ["obsolete"],
+        "prompt": "用 obsolete 写一句话：描述一个被新技术淘汰的东西。",
+        "hint": "be / become obsolete",
+        "reference": "Cassette tapes became obsolete once streaming arrived.",
+        "checkpoints": ["obsolete 作表语或定语", "句子意思完整"]
+      },
+      {
+        "id": "o-reinvent",
+        "kind": "scenario",
+        "targets": ["reinvent", "adapt"],
+        "prompt": "描述一家老店如何 adapt to change 并 reinvent itself，写 2–3 句。",
+        "hint": "reinvent oneself as …",
+        "reference": "The old bookshop adapted to change and reinvented itself as a reading café.",
+        "checkpoints": ["adapt to", "reinvent oneself as"]
+      },
+      {
+        "id": "o-vanish",
+        "kind": "sentence",
+        "targets": ["vanish"],
+        "prompt": "用 vanish 写一句话：描述某种东西从生活中消失。",
+        "hint": "vanish from …",
+        "reference": "Many small shops vanished from the high street.",
+        "checkpoints": ["vanish from", "句子意思完整"]
+      }
+    ]
+  }
+}

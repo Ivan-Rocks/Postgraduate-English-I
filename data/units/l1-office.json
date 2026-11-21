@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "id": "l1-office",
+  "level": "L1",
+  "title": "The office, redefined",
+  "topic": "社会·远程办公",
+  "wordCount": 79,
+  "timeBudgetMin": 15,
+  "timePlan": { "read": 3, "quiz": 5, "translation": 3, "output": 3, "vocab": 1 },
+  "passage": "When remote work first spread, many assumed the office would disappear. Instead, companies began to rethink the space they rented: fewer desks, more meeting rooms, and quiet corners for focused work. The change did not eliminate the office; it redefined it. Employees still come in, but less for routine tasks and more for collaboration and training. In this sense, the office has not vanished — it has become a place people choose rather than a place they must attend.",
+  "source": {
+    "origin": "self-written",
+    "license": "internal",
+    "status": "draft"
+  },
+  "vocab": [
+    {
+      "word": "assume",
+      "pos": "v.",
+      "gloss": "假定，认为",
+      "collocation": "assume that",
+      "example": "I assumed the meeting was cancelled."
+    },
+    {
+      "word": "rethink",
+      "pos": "v.",
+      "gloss": "重新考虑",
+      "collocation": "rethink a plan",
+      "example": "We need to rethink our approach."
+    },
+    {
+      "word": "eliminate",
+      "pos": "v.",
+      "gloss": "消除，去掉",
+      "collocation": "eliminate waste",
+      "example": "The new system eliminates most paperwork."
+    },
+    {
+      "word": "redefine",
+      "pos": "v.",
+      "gloss": "重新定义",
+      "collocation": "redefine the role of",
+      "example": "The Internet has redefined how we shop."
+    },
+    {
+      "word": "collaboration",
+      "pos": "n.",
+      "gloss": "合作，协作",
+      "collocation": "in collaboration with",
+      "example": "The project was built in collaboration with local schools."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "main-idea",
+      "stem": "这段主要在说什么？",
+      "options": [
+        { "key": "A", "text": "远程办公会让办公室彻底消失" },
+        { "key": "B", "text": "办公室没有被淘汰，而是被重新定义" },
+        { "key": "C", "text": "公司应该减少会议室的面积" },
+        { "key": "D", "text": "员工越来越不愿意去办公室" }
+      ],
+      "answer": "B",
+      "explanation": "首句提出「办公室会消失」的预言，接着用 Instead 转折，末句说办公室「没有被淘汰，而是被重新定义」。"
+    },
+    {
+      "id": "q2",
+      "type": "vocabulary-in-context",
+      "target": "eliminate",
+      "stem": "文中 eliminate 在这里最接近哪个意思？",
+      "options": [
+        { "key": "A", "text": "remove（消除）" },
+        { "key": "B", "text": "increase（增加）" },
+        { "key": "C", "text": "design（设计）" },
+        { "key": "D", "text": "rent（租用）" }
+      ],
+      "answer": "A",
+      "explanation": "eliminate 指「消除、去掉」；文中说变化没有「消除」办公室，而是重新定义了它。"
+    },
+    {
+      "id": "q3",
+      "type": "reference",
+      "target": "the second it",
+      "stem": "第三句 “The change did not eliminate the office; it redefined it.” 中，第二个 it 指什么？",
+      "options": [
+        { "key": "A", "text": "the change" },
+        { "key": "B", "text": "the office" },
+        { "key": "C", "text": "remote work" },
+        { "key": "D", "text": "the space" }
+      ],
+      "answer": "B",
+      "explanation": "第一个 it 指 the change，第二个 it 指 the office——变化没有消除办公室，而是重新定义了办公室。"
+    },
+    {
+      "id": "q4",
+      "type": "detail",
+      "stem": "根据第二句，公司对租用的空间做了哪些调整？",
+      "options": [
+        { "key": "A", "text": "增加工位，减少会议室" },
+        { "key": "B", "text": "减少工位，增加会议室和安静角落" },
+        { "key": "C", "text": "取消所有固定工位" },
+        { "key": "D", "text": "把办公室改造成咖啡厅" }
+      ],
+      "answer": "B",
+      "explanation": "第二句说 fewer desks, more meeting rooms, and quiet corners for focused work，对应「减少工位、增加会议室和安静角落」。"
+    }
+  ],
+  "translation": {
+    "instructions": "把下面的句子译成中文，先自己译，再展开参考。",
+    "items": [
+      {
+        "id": "t1",
+        "source": "The change did not eliminate the office; it redefined it.",
+        "reference": "这一变化并没有消除办公室；它重新定义了办公室。",
+        "points": ["eliminate 译出「消除/去掉」", "分号前后是转折关系", "redefine 译出「重新定义」"]
+      },
+      {
+        "id": "t2",
+        "source": "Employees still come in, but less for routine tasks and more for collaboration and training.",
+        "reference": "员工仍会来办公室，但更多是为了协作和培训，而不是处理日常事务。",
+        "points": ["less ... more ... 的对比", "routine tasks 译出「日常事务」", "collaboration 译出「协作」"]
+      }
+    ]
+  },
+  "output": {
+    "instructions": "用本轮没把握的词造句，或描述一个相似场景；先自己写，再看参考。",
+    "tasks": [
+      {
+        "id": "o-eliminate",
+        "kind": "sentence",
+        "targets": ["eliminate"],
+        "prompt": "用 eliminate 写一句话：描述消除某种浪费或问题。",
+        "hint": "eliminate waste / eliminate the problem",
+        "reference": "The new policy aims to eliminate unnecessary paperwork.",
+        "checkpoints": ["eliminate 后接名词", "句子意思完整"]
+      },
+      {
+        "id": "o-rethink",
+        "kind": "sentence",
+        "targets": ["rethink"],
+        "prompt": "用 rethink 写一句话：描述重新考虑一个计划或习惯。",
+        "hint": "rethink a plan / rethink how we work",
+        "reference": "The team had to rethink its plan after the budget was cut.",
+        "checkpoints": ["rethink 后接名词或从句", "句子意思完整"]
+      },
+      {
+        "id": "o-collaboration",
+        "kind": "scenario",
+        "targets": ["collaboration", "redefine"],
+        "prompt": "描述一次 collaboration 的场景：两个团队如何合作，并重新定义各自的分工，写 2–3 句。",
+        "hint": "in collaboration with / redefine the role of",
+        "reference": "The two teams worked in collaboration to redefine the role of the office.",
+        "checkpoints": ["collaboration 用法正确", "redefine 用法正确", "2–3 句连贯"]
+      }
+    ]
+  }
+}

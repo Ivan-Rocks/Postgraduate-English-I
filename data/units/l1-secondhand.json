@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 2,
+  "id": "l1-secondhand",
+  "level": "L1",
+  "title": "Second-hand goes mainstream",
+  "topic": "社会·二手消费",
+  "wordCount": 81,
+  "timeBudgetMin": 15,
+  "timePlan": { "read": 3, "quiz": 5, "translation": 3, "output": 3, "vocab": 1 },
+  "passage": "Buying second-hand was once seen as a sign of hard times. These days, however, it has become a respectable habit. Apps make it easy to browse used clothes and furniture, and younger shoppers often prefer them to new goods. The appeal is not only affordable prices: buying used also reduces waste. What began as a way to save money has turned into a small movement against throwaway culture. For many, a used item carries a story that a new one cannot.",
+  "source": {
+    "origin": "self-written",
+    "license": "internal",
+    "status": "draft"
+  },
+  "vocab": [
+    {
+      "word": "respectable",
+      "pos": "adj.",
+      "gloss": "体面的，值得尊重的",
+      "collocation": "a respectable job",
+      "example": "Teaching is still a respectable profession."
+    },
+    {
+      "word": "browse",
+      "pos": "v.",
+      "gloss": "浏览",
+      "collocation": "browse online",
+      "example": "She spent the afternoon browsing second-hand shops."
+    },
+    {
+      "word": "prefer",
+      "pos": "v.",
+      "gloss": "更喜欢",
+      "collocation": "prefer A to B",
+      "example": "I prefer tea to coffee."
+    },
+    {
+      "word": "affordable",
+      "pos": "adj.",
+      "gloss": "负担得起的",
+      "collocation": "affordable prices",
+      "example": "The shop sells affordable furniture."
+    },
+    {
+      "word": "reduce",
+      "pos": "v.",
+      "gloss": "减少",
+      "collocation": "reduce waste",
+      "example": "We should reduce our use of plastic."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "main-idea",
+      "stem": "这段主要在说什么？",
+      "options": [
+        { "key": "A", "text": "二手商品的质量越来越差" },
+        { "key": "B", "text": "买二手从省钱变成一种环保生活方式" },
+        { "key": "C", "text": "新商品的价格太高了" },
+        { "key": "D", "text": "年轻人不再买新东西" }
+      ],
+      "answer": "B",
+      "explanation": "首句说二手曾是「艰难时世」的标志，These days, however 转折后说它成了体面习惯，末句落到「反对一次性消费文化的小型运动」，所以是「从省钱变成环保生活方式」。"
+    },
+    {
+      "id": "q2",
+      "type": "vocabulary-in-context",
+      "target": "respectable",
+      "stem": "文中 respectable 在这里最接近哪个意思？",
+      "options": [
+        { "key": "A", "text": "socially acceptable（体面的、被接受的）" },
+        { "key": "B", "text": "very cheap（很便宜的）" },
+        { "key": "C", "text": "hard to find（很难找到的）" },
+        { "key": "D", "text": "old-fashioned（过时的）" }
+      ],
+      "answer": "A",
+      "explanation": "respectable 指「体面的、社会认可的」；文中说买二手从「艰难时世的标志」变成 respectable habit，强调它不再丢面子。"
+    },
+    {
+      "id": "q3",
+      "type": "reference",
+      "target": "them",
+      "stem": "“younger shoppers often prefer them to new goods” 中的 them 指什么？",
+      "options": [
+        { "key": "A", "text": "apps" },
+        { "key": "B", "text": "used clothes and furniture" },
+        { "key": "C", "text": "new goods" },
+        { "key": "D", "text": "younger shoppers" }
+      ],
+      "answer": "B",
+      "explanation": "them 回指前半句的 used clothes and furniture——年轻买家更喜欢这些二手衣物和家具，而不是新商品。"
+    },
+    {
+      "id": "q4",
+      "type": "logic-link",
+      "stem": "第一句与第二句之间的逻辑关系是？",
+      "options": [
+        { "key": "A", "text": "转折" },
+        { "key": "B", "text": "因果" },
+        { "key": "C", "text": "递进" },
+        { "key": "D", "text": "举例" }
+      ],
+      "answer": "A",
+      "explanation": "These days, however 是转折信号：过去被视为艰难时世的标志，如今却成了体面习惯。"
+    }
+  ],
+  "translation": {
+    "instructions": "把下面的句子译成中文，先自己译，再展开参考。",
+    "items": [
+      {
+        "id": "t1",
+        "source": "What began as a way to save money has turned into a small movement against throwaway culture.",
+        "reference": "最初只是为了省钱，如今却演变成一场反对一次性消费文化的小型运动。",
+        "points": ["What began as ... has turned into ... 的主语从句", "throwaway culture 译出「一次性消费文化」", "movement 译出「运动」"]
+      },
+      {
+        "id": "t2",
+        "source": "The appeal is not only affordable prices: buying used also reduces waste.",
+        "reference": "它的吸引力不仅在于价格实惠：购买二手还能减少浪费。",
+        "points": ["not only ... also ... 的递进", "affordable 译出「价格实惠/负担得起」", "reduces waste 译出「减少浪费」"]
+      }
+    ]
+  },
+  "output": {
+    "instructions": "用本轮没把握的词造句，或描述一个相似场景；先自己写，再看参考。",
+    "tasks": [
+      {
+        "id": "o-respectable",
+        "kind": "sentence",
+        "targets": ["respectable"],
+        "prompt": "用 respectable 写一句话：描述一种变得体面的习惯或职业。",
+        "hint": "a respectable job / become respectable",
+        "reference": "Repairing old furniture has become a respectable way to earn a living.",
+        "checkpoints": ["respectable 作定语或表语", "句子意思完整"]
+      },
+      {
+        "id": "o-affordable",
+        "kind": "sentence",
+        "targets": ["affordable"],
+        "prompt": "用 affordable 写一句话：描述一种负担得起的东西。",
+        "hint": "affordable housing / affordable prices",
+        "reference": "The city needs more affordable housing for young families.",
+        "checkpoints": ["affordable 修饰名词", "句子意思完整"]
+      },
+      {
+        "id": "o-movement",
+        "kind": "scenario",
+        "targets": ["movement", "reduce"],
+        "prompt": "描述你身边一个反对浪费的小 movement，写 2–3 句，用上 reduce。",
+        "hint": "a movement against … / reduce waste",
+        "reference": "A small movement against food waste has started in our neighborhood; restaurants now reduce portions and donate leftovers.",
+        "checkpoints": ["movement 用法正确", "reduce 用法正确", "2–3 句连贯"]
+      }
+    ]
+  }
+}
